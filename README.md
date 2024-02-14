@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import logspace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-logspace@deno/mod.js';
+import logspace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-logspace@v0.2.0-deno/mod.js';
 ```
 
 #### logspace( a, b, length )
@@ -75,7 +75,7 @@ var arr = logspace( 0, 2, 6 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import logspace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-logspace@deno/mod.js';
+import logspace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-logspace@v0.2.0-deno/mod.js';
 
 var out = logspace( 0, 3, 100 );
 console.log( out.join( '\n' ) );
